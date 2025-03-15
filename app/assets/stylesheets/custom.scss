@@ -94,7 +94,10 @@ aside {
 }
 
 /*forms*/
-input, textarea, select, .uneditable-input {
+input,
+textarea,
+select,
+.uneditable-input {
   border: 1px solid $secondary-color;
   width: 100%;
   margin-bottom: 15px;
@@ -119,4 +122,18 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $primary-color;
+    &:last-child {
+      border-bottom: 1px solid $secondary-color;
+      margin-bottom: 20px;
+    }
+  }
 }

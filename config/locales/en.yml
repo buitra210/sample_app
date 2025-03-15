@@ -3,6 +3,13 @@ en:
   hello: "Hello world"
   sign_up: "Sign up!"
   log_in: "Log in"
+  profile: "Profile"
+  settings: "Settings"
+  not_user: "Not user"
+  need_login: "You need to log in to perform this function"
+  logout_success: "Logged out"
+  invalid_email_password_combination: "Invalid email/password combination"
+  login_success: "Logged in"
   static_pages:
     home:
       title_main: "HOME"
@@ -47,3 +54,16 @@ en:
       new_user_msg: "Sign up now!"
       invalid_msg: "Invalid email/password combination"
       remember_me: "Remember me on this computer."
+      not_found: "User not found"
+    action:
+      edit: "Edit user"
+      edit_msg: "Edit your profile"
+      change: "Change"
+      save: "Save changes"
+    show:
+      title: "All users"
+      destroy_success: "User deleted"
+      destroy_fail: "User not deleted"
+      update_success: "Profile updated"
+      update_fail: "Profile not updated"
+      destroy_confirm: "Are you sure?"

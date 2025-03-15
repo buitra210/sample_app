@@ -3,6 +3,13 @@ vi:
   hello: "Xin chào thế giới"
   sign_up: "Đăng ký!"
   log_in: "Đăng nhập"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  not_user: "Không phải người dùng"
+  need_login: "Bạn cần đăng nhập để thực hiện chức năng này"
+  logout_success: "Đăng xuất thành công"
+  invalid_email_password_combination: "Kết hợp email/mật khẩu không hợp lệ"
+  login_success: "Đăng nhập thành công"
   static_pages:
     home:
       title_main: "TRANG CHỦ"
@@ -63,3 +70,16 @@ vi:
       new_user_msg: "Đăng ký người dùng mới!"
       invalid_msg: "Thông tin đăng nhập không hợp lệ"
       remember_me: "Ghi nhớ account của tôi trên thiết bị này."
+      not_found: "Không tìm thấy người dùng"
+    action:
+      edit: "Chỉnh sửa người dùng"
+      edit_msg: "Chỉnh sửa hồ sơ của bạn"
+      change: "Thay đổi"
+      save: "Lưu thay đổi"
+    show:
+      title: "Tất cả người dùng"
+      destroy_success: "Người dùng đã bị xóa"
+      destroy_fail: "Người dùng không bị xóa"
+      update_success: "Người dùng đã được cập nhật"
+      update_fail: "Người dùng không được cập nhật"
+      destroy_confirm: "Bạn có chắc chắn?"

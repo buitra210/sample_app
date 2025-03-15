@@ -1,0 +1,10 @@
+<% @users.each do |user| %>
+  <li>
+    <%= gravatar_for user, size: Settings.user.avatar.gravatar_size_user%>
+    <%= link_to user.name, user_path(user, locale: I18n.locale) %>
+  </li>
+  <% if can_destroy_user? user %>
+    <%= link_to "delete", user_path(user, locale: I18n.locale),
+      data: { turbo_method: :delete, turbo_confirm: t("users.show.destroy_confirm") } %>
+  <% end %>
+<% end %>

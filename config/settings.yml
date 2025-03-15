@@ -11,3 +11,8 @@ user:
     case_sensitive: false
   password:
     min_length: 8
+  avatar:
+    gravatar_email: "http://gravatar.com/emails"
+    gravatar_size: 80
+    gravatar_size_user: 50
+  pagy_items: 10

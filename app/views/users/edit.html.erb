@@ -1,0 +1,11 @@
+<% provide :title, t("users.action.edit") %>
+<h1><%= t "users.action.edit_msg" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "form", url: user_path(@user, locale: I18n.locale ), method: :patch %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t("users.action.change"), Settings.user.avatar.gravatar_email, target: "_blank" %>
+    </div>
+  </div>
+</div>

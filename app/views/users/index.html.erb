@@ -1,0 +1,7 @@
+<% provide :title, t("users.show.title") %>
+<h1><%= t "users.show.title" %></h1>
+<%== pagy_bootstrap_nav @pagy, data: { turbo: false }  %>
+<ul class="users">
+  <%= render @users %>
+</ul>
+<%== pagy_bootstrap_nav @pagy, data: { turbo: false }  %>

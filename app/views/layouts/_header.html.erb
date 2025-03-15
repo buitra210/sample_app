@@ -6,6 +6,9 @@
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to t("header.home"), root_path(locale: I18n.locale) %></li>
           <li><%= link_to t("header.help"), help_path(locale: I18n.locale) %></li>
+          <li><%= link_to t("users.show.title"), users_path(locale: I18n.locale) %></li>
+          <li><%= link_to t("profile"), user_path(current_user, locale: I18n.locale) %></li>
+          <li><%= link_to t("settings"), edit_user_path(current_user, locale: I18n.locale) %></li>
           <li><%= link_to t("header.log_out"), logout_path(locale: I18n.locale), data: { turbo_method: :delete } %>
           </li>
         </ul>
